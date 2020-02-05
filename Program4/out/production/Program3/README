@@ -1,0 +1,35 @@
+PROJECT: Program 4
+AUTHORS: Angelina Grosso and Sarah Sbert
+
+To run the program run GridControlPoints.
+
+Menu Bar:
+    Quit: exits the program
+    Options:
+        File:
+            Open preimage: opens the start image
+            Open postimage: opens the end image
+        Setup: opens a popup that allows the user to control the number of control points,
+               allows the user to control the number of frames per second and the number of seconds to complete the morph.
+               There is also a done button which will close the popup.
+        Reset: will reset the control points to their original positions and the images to their original brightness
+        Morph Options:
+               opens a popup showing the left grid. There are three buttons, morph, preview morph and done.
+               Morph shows the full image morphing from the start image to the end image
+               Preview Morph shows the morph of the control points from the left grid to the right grid
+               Done will close the popup.
+
+
+Grids: each rectangle is a control point. The left grid is the initial and contains the start image
+       and the right grid is the final and contains the end image.
+       When you click on a control point you can drag it anywhere you want within the drag constraint so no point can move
+       to create overlapping triangles.
+       You can move control points on either grid and the corresponding point on the opposite grid will turn red.
+
+Start Image Brightness:
+        The "+" will brighten the intensity of the start image
+        The "-" will dim the intensity of the start image
+
+End Image Brightness:
+        The "+" will brighten the intensity of the end image
+        The "-" will dim the intensity of the end image
